@@ -24,7 +24,7 @@
     .cartRow{
       margin-bottom: 2vh;
       flex-direction: column;
-      height: 50vh;
+      height: 80vh;
       /* background-color: blue; */
     }
     .card{

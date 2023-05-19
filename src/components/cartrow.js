@@ -9,8 +9,8 @@ const CartRow = (props) => {
     let dispatch = useDispatch()
     let myCart =  useSelector(state => state.cart.data)
   return (
-    <div className='flex justify-center  text-center h-[30vh] shadow-lg shadow-black-500/50 cartRow pr-3'>
-        <div className='flex-1 m-3 rounded-md image' style = {
+    <div className='flex justify-center  text-center h-[50vh] shadow-lg shadow-black-500/50 cartRow pr-3'>
+        <div className='flex-[1.4] m-3 rounded-md image' style = {
             {
                 backgroundImage : `url(${props.img})`,
                 backgroundSize: 'cover',

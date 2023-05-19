@@ -7,7 +7,7 @@ const Left = () => {
     const myCart = useSelector(state => state.cart.data)
     
   return (
-    <div className='w-[50vw] mr-[5%] ml-[5%] mt-[8vh] bg-[white] h-[10%] rounded-md	left'>
+    <div className='w-[70vw] mr-[5%] ml-[5%] mt-[8vh] bg-[white] h-[10%] rounded-md	left'>
         <div className='header p-[2%]  shadow-lg shadow-black-500/50'> Cart - {myCart.length} Items </div>
 
 

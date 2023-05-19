@@ -24,7 +24,7 @@ const Right = () => {
 
     }, [myCart])
   return (
-    <div className=' h-[30vh] w-[35vw] bg-[white] mt-[8vh] mr-[5%] rounded-md text-sm flex flex-col justify-between right'>
+    <div className=' h-[30vh] w-[28vw] bg-[white] mt-[8vh] mr-[5%] rounded-md text-sm flex flex-col justify-between right'>
     
     <div className='header p-[2%]  shadow-lg shadow-black-500/50'> Summary</div>
 

@@ -19,8 +19,8 @@ function App() {
 
                     <div className='flex flex-row bg-gradient-to-r from-cyan-500 to-blue-500 min-h-[90vh] main'>
                                         
-                    <Left/>
-                    <Right />
+                    <Left className="flex-2"/>
+                    <Right className='flex-1'/>
                     </div>
                   }   />
                
