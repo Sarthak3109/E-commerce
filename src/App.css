@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media screen and  (max-width:  650px) {
+    .main{
+      flex-direction : column;
+    }
+    .left{
+      width: 90vw;
+      margin: auto;
+      margin-top: 2vh;
+      
+    
+    }
+    .right{
+      width: 80vw;
+      margin: auto;
+      margin-top: 2vh;
+    }
+    .cartRow{
+      margin-bottom: 2vh;
+      /* background-color: blue; */
+    }
+    .card{
+      width: 100%;
+      
+    }
+    .front_page{
+      flex-direction: column  ;
+    }
+}
