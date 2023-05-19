@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* media queries */
 @media screen and  (max-width:  650px) {
     .main{
       flex-direction : column;
@@ -21,13 +23,37 @@
     }
     .cartRow{
       margin-bottom: 2vh;
+      flex-direction: column;
+      height: 50vh;
       /* background-color: blue; */
     }
     .card{
       width: 100%;
-      
+    
+    }
+    .card:hover{
+      transform: none;
     }
     .front_page{
       flex-direction: column  ;
+    }
+    .division:hover{
+      transform: none;
+      transition: none;
+    }
+    .image{
+
+      background-color: blue;
+     
+    }
+
+    .last{
+      /* background-color: red; */
+      margin:  auto;
+      width: 90%;
+    }
+    .secondlast{
+      width: 90%;
+      margin:auto;
     }
 }

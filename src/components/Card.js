@@ -54,7 +54,7 @@ const ItemCard = (props) => {
        
 <Card className = 'w-[25vw]  bg-[red] hover:scale-[1.05] transtion ease-in-out duration-150 card' >
   <CardBody>
-    <div className='hover:scale-110 transtion ease-in-out duration-150'>
+    <div className='hover:scale-110 transtion ease-in-out duration-150 division'>
     {load ? <Image
       src={props.image}
       onError={()=>{

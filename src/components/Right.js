@@ -24,7 +24,7 @@ const Right = () => {
 
     }, [myCart])
   return (
-    <div className=' h-[30vh] w-[35vw] bg-[white] mt-[8vh] mr-[5%] rounded-md text-sm  right'>
+    <div className=' h-[30vh] w-[35vw] bg-[white] mt-[8vh] mr-[5%] rounded-md text-sm flex flex-col justify-between right'>
     
     <div className='header p-[2%]  shadow-lg shadow-black-500/50'> Summary</div>
 
@@ -47,7 +47,7 @@ const Right = () => {
     </div>
 
  
-    <Link to = '../'  className='mt-[5%] w-[80%]  mx-auto flex justify-center'>
+    <Link to = '../'  className='mt-[5%] w-[80%]  mx-auto flex justify-center mb-[5%]'>
         <Button colorScheme='blue' size='sm' className = 'w-[100%]' >GO TO CHECKOUT </Button>
         </Link>
    
